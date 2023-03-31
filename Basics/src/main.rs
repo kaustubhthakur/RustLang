@@ -1,11 +1,11 @@
 
 fn main()
 {
-    println!("1 + 2 = {}",1u32+2u32);
-    println!("1e4 is {}",1e4);
-
-    println!("true AND false is {}", true && false);
-    println!("true OR false is {}", true || false);
-    println!("NOT true is {}", !true);
-
+    println!("Here Is Your main Function");
+  let x = anss(2);
+  println!("the value of x is{x}");
+}
+fn anss(x :i32) -> i32
+{
+x+1
 }
