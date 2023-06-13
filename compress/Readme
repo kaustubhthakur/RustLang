@@ -1,9 +1,0 @@
-FILE COMPRESSER
-//command
-
-cargo run filename.pdf compressed_file_name
-
-
-It will compressed your file from x mb size to x-dx mb size
-dx can be any size
-dx is directly proportional to x 
