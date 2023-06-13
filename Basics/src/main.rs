@@ -21,7 +21,7 @@ let y:i32=8;
     println!("the value of x is {} ans value of y is {}",x,y);
 }
 println!("the value of x is {} and value of y is {}",x,y);
-*/
+
 
 // shadowing
 let x=5;
@@ -32,9 +32,15 @@ let x=x+1;
 }
 println!("the value of x is {x}");
 
+
+//constants
+const THREE:u32=60*30;
+println!("the THREE is {THREE}")
+
+*/
 }
 fn define() 
 {
-    let x : &str="kaustubh";
+let x : &str="kaustubh";
 println!("I Am {x}");
 }
