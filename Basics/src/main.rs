@@ -1,5 +1,5 @@
-fn main() 
-{
+//fn main() {
+
 //variables single line comment
 /*
 let mut x=2;
@@ -37,10 +37,41 @@ println!("the value of x is {x}");
 const THREE:u32=60*30;
 println!("the THREE is {THREE}")
 
-*/
+
 }
 fn define() 
 {
 let x : &str="kaustubh";
 println!("I Am {x}");
+}
+
+
+//destructuring
+fn main() 
+{
+    let (mut x,y) = (1,2);
+    x+=2;
+    assert_eq!(x,3);
+    assert_eq!(y,2);
+    println!("success");
+}
+
+// Data-Types
+
+fn main()
+{
+    let x= 2.0;
+    let y:f32=3.0;
+    let f :bool = false;
+    let t=true;
+    println!("{x} {y} {t} {f}")
+}
+*/
+//charter-type
+
+fn main() 
+{
+    let c = 'z';
+    let z :char='w';
+    println!("{c}{z}")
 }
