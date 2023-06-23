@@ -65,13 +65,32 @@ fn main()
     let f :bool = false;
     let t=true;
     println!("{x} {y} {t} {f}")
+} 
+//charter-type
+let c = 'z';
+    let z :char='w';
+    println!("{c}{z}")
+    
+ // floating type
+fn main() 
+{
+ let x :f64 = 0.12;
+ let mut sum:i32 = 0;
+ for i in -3..2
+ {
+    sum+=i;
+ }
+for c in 'a'..'z'
+{
+    println!("{}",c);
+}
+println!("{}" ,sum)  ;
 }
 */
-//charter-type
+
+// function
 
 fn main() 
 {
-    let c = 'z';
-    let z :char='w';
-    println!("{c}{z}")
+
 }
