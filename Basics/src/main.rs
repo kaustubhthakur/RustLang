@@ -92,5 +92,13 @@ println!("{}" ,sum)  ;
 
 fn main() 
 {
+    let(z,y) = (1,2);
+let s:i32 = sum(1,2);
+assert_eq!(s,3);
+println!("success");
+}
 
+fn sum(z:i32,y:i32) -> i32
+{
+    z+y
 }
